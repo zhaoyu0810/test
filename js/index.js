@@ -1,6 +1,3 @@
-/**
- * Created by FENG on 2017/4/30.
- */
 $(function () {
     $(".header").children("ul").eq(0).removeAttr("id");
     $(window).scroll(function () {
@@ -33,7 +30,7 @@ $(function () {
                 $(".con").scrollLeft($(".con img").width())
             }
             move();
-        },4000)
+        },3000)
     }
     function move(){
         $(".con").stop().animate({scrollLeft:$(".con img").width()*n},1200,function (){

@@ -69,40 +69,41 @@
 }
 /*轮播图*/
 .con-one{
-    width: 1349px;
+    width: 1000px;
     height: 600px;
     overflow: hidden;
+    margin: 0 auto;
 }
 .box{
-    width: 1349px;
+    width: 1000px;
     height: 600px;
     overflow: hidden;
     position: relative;
     margin: 50px auto;
 }
 .con{
-    width: 1349px;
+    width: 1000px;
     height: 600px;
     overflow: hidden;
 }
 .inn{
-    width: 10000px;
+    width: 20000px;
     height: 600px;
     overflow: hidden;
 }
 .inn img{
     float: left;
-    width: 1349px;
+    width: 1000px;
     height: 600px;
 }
 .list{
-    width: 150px;
+    width: 224px;
     height: 20px;
     overflow: hidden;
     position: absolute;
     bottom: 75px;
     left: 50%;
-    margin-left: -75px;
+    margin-left: -112px;
     list-style: none;
 }
 .list li{
@@ -124,27 +125,27 @@
 }
 .left,.right{
     border-radius: 50%;
-    width: 80px;
-    height: 80px;
-    background: rgba(227,98,9,0.3);
+    width: 60px;
+    height: 60px;
+    background: rgba(232,232,232,0.5);
     position: absolute;
     color: #fff;
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
-    line-height: 80px;
+    line-height: 60px;
     top: 50%;
-    margin-top: -40px;
+    margin-top: -30px;
     cursor: pointer;
     left: 30px;
 }
 .right{
-    left: 1239px;
+    left:888px;
 }
 .right:hover{
-    background: rgba(232,232,232,0.5);
+    background: rgba(227,98,9,0.3);
 }
 .left:hover{
-    background: rgba(232,232,232,0.5);
+    background: rgba(227,98,9,0.3);
 }
 
 
